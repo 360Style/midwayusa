@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #fff8cd;
+  background-color: #fff8cd;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #feeca4;
+  /*
+      .form-control i {
+          visibility: hidden;
+          position: absolute;
+          right: 10px;
+      }
+
+      .form-control.success i.fa-check-circle {
+  	color: $green;
+  	visibility: visible;
+  }
+
+  .form-control.error i.fa-exclamation-circle {
+  	color: $red;
+  	visibility: visible;
+  }
+  */
+  /*
+  textarea {
+      resize: none;
+      height: 80px
+  }
+  */
+}
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #0b0e55;
+}
+.wrapper p {
+  color: #0b0e55;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.wrapper .form-control input[type=text], .wrapper input[type=email],
+.wrapper textarea {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+.wrapper .form-control.success input {
+  border-color: #2ecc71;
+}
+.wrapper .form-control.error input {
+  border-color: #fe8b8e;
+}
+.wrapper form, .wrapper .contact:hover > div {
+  display: none;
+}
+.wrapper .contact:hover > form {
+  display: block;
+}
+.wrapper .btn input[type=submit] {
+  border: 0px;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #0b0e55;
+  color: #fff8cd;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.wrapper h2.connect {
+  border: 0px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
